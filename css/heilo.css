@@ -1,0 +1,245 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+}
+
+#my-navigation {
+    background: none;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+#my-navigation .navbar-toggle {
+    display: block;
+    border: none;
+}
+
+#my-navigation .navbar-toggle:hover {
+    background: none;
+    cursor: pointer;
+}
+
+#my-navigation .navbar-right {
+    float: left !important;
+}
+
+#my-navigation .icon-bar-left {
+    float: left;
+}
+
+#my-navigation .navbar-header {
+    float: none;
+}
+
+#my-navigation .icon-bar {
+    background-color: #fff;
+}
+
+#my-navigation .icon-right {
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: white;
+}
+
+#my-navigation .navbar-brand,
+#my-navigation ul li a {
+    color: #fff;
+}
+
+/* carousel */
+.my-container {
+    padding: 0px;
+    color: white;
+}
+
+.carousel .item {
+    background-image: url(../images/slide01.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.carousel .item-1 {
+    background-image: url(../images/slide02.jpg);
+}
+
+.carousel .item-2 {
+    background-image: url(../images/slide03.jpg);
+}
+
+.carousel .item-3 {
+    background-image: url(../images/slide04.jpg);
+}
+
+.carousel .item-4 {
+    background-image: url(../images/slide05.jpg);
+}
+
+/* banner */
+.banner {
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    z-index: 20;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+}
+
+.banner hr {
+    width: 50%;
+}
+
+.banner p {
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.banner h1 {
+    font-size: 120px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* two parts */
+.two-parts {
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.two-parts img {
+    width: 100%;
+}
+
+.two-parts h6 {
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.two-parts h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.two-parts hr {
+    width: 40%;
+    color: gray;
+    height: 0.5px;
+    margin: 0 auto;
+}
+
+.two-parts p {
+    text-align: left;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: gray;
+    line-height: 25px;
+}
+
+.two-parts button {
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    border: 2px solid #dfdfdf;
+}
+
+.two-parts .left,
+.two-parts .right {
+    background-color: white;
+    text-align: center;
+    width: 95%;
+}
+
+.two-parts .right {
+    margin-left: 5%;
+}
+
+/* full quate */
+.full-quate {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.full-quate p,
+.main p {
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.full-quate hr,
+.main hr {
+    width: 30%;
+}
+
+/* four image section */
+.main {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.main h2 {
+    padding-bottom: 30px;
+}
+
+.main p {
+    color: gray;
+}
+
+.four-images img {
+    width: 95%;
+    margin-bottom: 80px;
+    border: 10px solid white;
+}
+
+.four-images .left {
+    margin-left: 5%;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    padding: 80px 0;
+    text-align: center;
+    color: gray;
+}
+
+.footer a {
+    font-size: 40px;
+    padding: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/* media queries start */
+@media only screen and (max-width:1008px) {
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .my-collapse {
+        padding-left: 20px;
+    }
+
+    .two-parts .right {
+        margin-left: 0;
+    }
+
+    .four-images .left {
+        margin-left: 0;
+    }
+}
